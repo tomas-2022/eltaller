@@ -19,10 +19,12 @@
 
 .taco1 {
   text-align: center;
-  font-size: large;
+  font-size: xx-large;
+  font-weight: bolder;
   background-color: antiquewhite;
   width: auto;
   height: auto;
+  
 }
 
 .taco2 {
@@ -79,10 +81,12 @@
 }
 
 .pie {
+  color: white;
   background-color: grey;
   text-align: center;
   font-size: x-large;
   align-content: center;
+  
 }
 
 .imagen1 {
@@ -95,13 +99,6 @@
   align-content: center;
 }
 
-/* .container  img:hover{
-    transform: rotate(60deg);
-    transform: scale(1.2);
-
-
-
-} */
 .textooferta {
   text-align: center;
 }
@@ -142,16 +139,6 @@
   background-color: bisque;
 }
 
-/* .footer img:hover{
-    margin: 0px;
-    padding: 10px;
-    transform: scale(1,2);
-} */
-/* @media (max-weith:800px) {
-    header{
-        flex-direction: column;
-    }
-} */
 .col-4 {
   width: 400px;
   height: 500px;
@@ -171,4 +158,3 @@ nav ul li {
   padding-bottom: 30px;
 }
 
-/*# sourceMappingURL=main.css.map */

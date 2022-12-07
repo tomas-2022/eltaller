@@ -5,14 +5,6 @@
 }
 
 
-/* .menu >li{
-    display: inline-block;
-    padding: 10px 10px;
-    margin-right: 0px 200px;
-    font-size: xx-large;
-    font-weight: 100;
-} */
-
 .formulario{
     padding: 100px 100px;
     background-color: rgb(124, 77, 117);
@@ -21,14 +13,14 @@
     text-align: center;
 }
 
+
 .taco5{
     text-align: center;
     
 }
 
 .taco6{
-    
-    text-align: center;
+text-align: center;
 }
 
 .taco1{
@@ -69,7 +61,7 @@
 .container  img:hover{
     transform: rotate(60deg);
     transform: scale(1.2);
-    
+    background-color: aqua;
 
     
 }
@@ -77,6 +69,7 @@
 .textooferta{
     text-align: center;
 }
+
 
 .textooferta2{
     text-align: center;
@@ -87,8 +80,9 @@
 }
 
 .textoproductos{
-    font-size: large;
+    font-size: 20%;
     text-align: center;
+    
     
 }
 
@@ -120,7 +114,7 @@
 .footer img:hover{
     margin: 0px;
     padding: 10px;
-    transform: scale(1,2);
+    transform: skewX(2)
 }
 
 
@@ -133,27 +127,47 @@
 
 .col-4{
 align-items: center;
-height: 10px;
-width: 10px;
+height: 50px;
+width: 50px;
+padding: 30px 30px;
+background-color: brown;
 }
 
 
-/* nav ul li{
-    display: flex;
-    display: inline-block;
-    margin: 10px 50px;
-    list-style: none;
-    padding: 5px 5px;
-    
-} */
 
 .col-12{
     text-align: center;
     padding-top: 30px;
     padding-bottom: 30px;
+    font-size: 32px
 }
 
-.col-4{
-    padding: 30px 30px;
-        background-color: brown;
-    }
+
+.col-3{
+    display: inline-block;
+    background-color: aqua;
+}
+
+.desmalezadora{
+    flex: content;
+}
+
+.container-fluid{
+    flex: content;
+    display: flex;
+
+}
+
+.row{
+    flex: content;
+    display: flex;
+}
+
+.subitutlo{
+margin: 200px;
+}
+
+.tornillos{
+padding-top: 100px;
+}
+
